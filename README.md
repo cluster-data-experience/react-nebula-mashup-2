@@ -3,14 +3,15 @@
 ## Configure qlik connection
 Add your Qlik Sense url, appId and/or the webIntegrationId if you are building against the Qlik Hosted, Qlik Sense Business and Qlik Sense Enterprise for SaaS, in the src/Context/Nebula.jsx
 
-[Image]
+![image](https://user-images.githubusercontent.com/27926021/165561461-b272c05a-458f-4e9a-a5c7-c8aa3ba1bdd2.png)
+
 
 ### Install the appropriate packages by running ‘npm install’ (you need to have NodeJS installed for this step). 
 https://nodejs.org/en/download/
 
 ### Done, now you can start coding :)
 
-After the installation you can type "npm start" on the terminal to start the mashup.
+After the installation you can type "npm start" on the terminal to start the mashup in a local server.
 
 
 ## Available Scripts
