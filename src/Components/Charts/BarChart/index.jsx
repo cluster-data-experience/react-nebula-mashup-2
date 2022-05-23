@@ -22,7 +22,7 @@ export default function BarChart({ id, style }) {
       ],
       title: {
         textStyle: {
-          fontFamily: "Poppins",
+          fontFamily: "Source Sans Pro",
           fontStyle: "normal",
           fontWeight: "bold",
           fontSize: 18,
@@ -40,7 +40,7 @@ export default function BarChart({ id, style }) {
         },
         backgroundColor: "rgba(39,57,57,0.9)",
         textStyle: {
-          fontFamily: "Poppins",
+          fontFamily: "Source Sans Pro",
           fontStyle: "normal",
         },
         axisPointer: {
@@ -65,7 +65,7 @@ export default function BarChart({ id, style }) {
         },
         axisLabel: {
           color: "#89A0A5",
-          fontFamily: "Poppins",
+          fontFamily: "Source Sans Pro",
           fontStyle: "normal",
           fontWeight: "normal",
           fontSize: 14,
@@ -88,7 +88,7 @@ export default function BarChart({ id, style }) {
         },
         axisLabel: {
           color: "#89A0A5",
-          fontFamily: "Poppins",
+          fontFamily: "Source Sans Pro",
           fontStyle: "normal",
           fontWeight: "normal",
           fontSize: 14,
@@ -103,7 +103,7 @@ export default function BarChart({ id, style }) {
         right: "4%",
         textStyle: {
           color: "#637B7B",
-          fontFamily: "Poppins",
+          fontFamily: "Source Sans Pro",
           fontStyle: "normal",
           fontWeight: "normal",
           fontSize: 13,
