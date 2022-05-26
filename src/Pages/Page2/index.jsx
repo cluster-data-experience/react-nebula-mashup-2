@@ -1,6 +1,9 @@
 import React from "react";
+import { useNebula } from "../../Context/Nebula";
 
-const Home = () => {
+const Page2 = () => {
+  const { app } = useNebula();
+
   return (
     <div className="page">
       <div className="row">
@@ -10,7 +13,7 @@ const Home = () => {
               <i className="material-icons"></i>
             </div>
             <div className="header-title">
-              <h3>KPI Dashboard</h3>
+              <h3>Sales Analysis</h3>
             </div>
             <p className="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page2;

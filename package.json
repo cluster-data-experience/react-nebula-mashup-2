@@ -5,6 +5,8 @@
   "private": true,
   "dependencies": {
     "@nebula.js/sn-bar-chart": "^1.16.0",
+    "@nebula.js/sn-line-chart": "^1.17.2",
+    "@nebula.js/sn-pie-chart": "^1.17.0",
     "@nebula.js/stardust": "^2.9.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
