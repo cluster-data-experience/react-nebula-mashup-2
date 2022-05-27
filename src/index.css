@@ -231,8 +231,7 @@ button {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	transition: all 0.3s ease-out;
-	-webkit-transition: all 0.3s ease-out;
+	transition: margin 0.3s ease-out;
 	overflow-y: auto;
 	padding-top: 0;
 }
