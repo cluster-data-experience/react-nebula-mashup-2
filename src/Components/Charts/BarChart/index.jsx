@@ -34,20 +34,10 @@ export default function BarChart({ id, style }) {
         show: false,
       },
       tooltip: {
-        trigger: "axis",
-        position(point, params, dom, rect, size) {
-          dom.style.transform = "translateZ(0)";
-        },
-        backgroundColor: "rgba(39,57,57,0.9)",
+        show: true,
         textStyle: {
           fontFamily: "Source Sans Pro",
-          fontStyle: "normal",
-        },
-        axisPointer: {
-          type: "shadow",
-          shadowStyle: {
-            color: "rgba(39,57,57,0.15)",
-          },
+          fontStyle: "normal"
         },
       },
       grid: {
@@ -136,7 +126,7 @@ export default function BarChart({ id, style }) {
   const [loading, setLoading] = useState(true);
 
   return (
-    <div style={style ? style : { width: "100%", height: '300px' }}>
+    <div style={style ? style : { width: "100%", height: '300px', padding: '10px' }}>
       {loading ? (
         <Loader />
       ) : (
